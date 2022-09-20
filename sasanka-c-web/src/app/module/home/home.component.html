@@ -1,0 +1,28 @@
+<div
+  class="h-screen flex items-center sm:bg-hero-image bg-cover bg-center bg-hero-image-sm"
+>
+  <p class="container px-8">
+    <span
+      class="sm:text-6xl text-4xl uppercase italic sm:text-white text-gray-700 font-bold"
+      >Sasanka</span
+    >
+    <br />
+    <span
+      class="sm:text-6xl text-4xl uppercase italic sm:text-white text-gray-700 font-bold"
+      >Chandrasena</span
+    >
+    <br />
+    <span
+      class="sm:text-4xl text-2xl uppercase italic sm:text-white text-gray-700 font-bold"
+      >Photography</span
+    >
+    <span class="flex flex-col sm:flex-row gap-3 mt-10">
+      <p
+        class="px-8 py-2 font-bold sm:text-white text-gray-700 border-2 sm:border-white border-gray-700 uppercase cursor-pointer backdrop-blur-sm hover:backdrop-saturate-50 hover:text-gray-700 hover:border-gray-700 hover:shadow-xl"
+        *ngFor="let item of categories"
+      >
+        {{ item }}
+      </p>
+    </span>
+  </p>
+</div>
