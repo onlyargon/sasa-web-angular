@@ -1,0 +1,17 @@
+<div class="relative">
+  <img
+    class="absolute rounded-2xl -rotate-12 drop-shadow-lg opacity-25"
+    [src]="imageList[activeIndex + 2] ?? imagePlaceholder"
+    alt="image"
+  />
+  <img
+    class="absolute rounded-2xl -rotate-6 drop-shadow-lg opacity-50"
+    [src]="imageList[activeIndex + 1] ?? imagePlaceholder"
+    alt="image"
+  />
+  <img
+    class="absolute rounded-2xl drop-shadow-lg"
+    [src]="imageList[activeIndex]"
+    alt="image"
+  />
+</div>
